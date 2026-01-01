@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Grand Canyon Sunset Lodge",
+        "location": "Arizona, Coconino County, Grand Canyon Village, Forest Road 123, 10",
+        "services": ["Wi-Fi", "Pool", "Parking", "Air Conditioning", "Restaurant"],
+        "rooms_quantity": 45,
+        "image_id": 11
+    },
+    {
+        "name": "Miami Beach Palms",
+        "location": "Florida, Miami-Dade County, Miami Beach, Ocean Drive, 450",
+        "services": ["Wi-Fi", "Pool", "Beach Access", "Air Conditioning", "Gym"],
+        "rooms_quantity": 120,
+        "image_id": 12
+    },
+    {
+        "name": "The Urban Haven",
+        "location": "New York, New York County, New York City, 5th Avenue, 250",
+        "services": ["Wi-Fi", "Gym", "Air Conditioning", "Concierge"],
+        "rooms_quantity": 85,
+        "image_id": 13
+    },
+    {
+        "name": "Desert Oasis Resort",
+        "location": "Nevada, Clark County, Las Vegas, Strip Boulevard, 7777",
+        "services": ["Wi-Fi", "Pool", "Parking", "Spa", "Casino", "Gym"],
+        "rooms_quantity": 300,
+        "image_id": 14
+    },
+    {
+        "name": "Mountain View Inn",
+        "location": "Colorado, Boulder County, Boulder, Canyon Street, 189",
+        "services": ["Wi-Fi", "Parking", "Air Conditioning"],
+        "rooms_quantity": 25,
+        "image_id": 15
+    },
+    {
+        "name": "French Quarter Suites",
+        "location": "Louisiana, Orleans Parish, New Orleans, Bourbon Street, 211",
+        "services": ["Wi-Fi", "Air Conditioning", "Restaurant", "Historic Building"],
+        "rooms_quantity": 50,
+        "image_id": 16
+    }
+]

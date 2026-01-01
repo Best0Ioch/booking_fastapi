@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Готелі</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .hotels-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .hotel-item {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .hotel-image {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .hotel-info {
+            flex: 1;
+        }
+        
+        .hotel-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .hotel-location {
+            font-size: 16px;
+            color: #666;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .location-icon::before {
+            content: "📍";
+        }
+    </style>
+</head>
+<body>
+    <div class="hotels-container">
+        {% for hotel in hotels %}
+            <div class="hotel-item">
+                <img 
+                    src="{{ url_for('static', path='images/' + hotel.image_id|string + '.webp') }}" 
+                    alt="{{ hotel.name }}"
+                    class="hotel-image"
+                >
+                <div class="hotel-info">
+                    <div class="hotel-name">{{ hotel.name }}</div>
+                    <div class="hotel-location">
+                        <span class="location-icon"></span>
+                        {{ hotel.location }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+[
+    {
+        "hotel_id": 1,
+        "name": "Deluxe Room with Terrace and Lake View",
+        "description": "A room of incredible beauty with stunning views.",
+        "price": 24500,
+        "services": ["Free Wi-Fi", "Air Conditioning (with climate control)"],
+        "quantity": 5,
+        "image_id": 7
+    },
+    {
+        "hotel_id": 1,
+        "name": "Deluxe Plus",
+        "description": "The best room in the hotel.",
+        "price": 22450,
+        "services": ["Free Wi-Fi", "Air Conditioning"],
+        "quantity": 10,
+        "image_id": 8
+    },
+    {
+        "hotel_id": 2,
+        "name": "Double Room for 2 People",
+        "description": "Indescribable beauty.",
+        "price": 4570,
+        "services": [],
+        "quantity": 15,
+        "image_id": 9
+    },
+    {
+        "hotel_id": 2,
+        "name": "Triple Room for 3 People",
+        "description": null,
+        "price": 4350,
+        "services": [],
+        "quantity": 8,
+        "image_id": 10
+    },
+    {
+        "hotel_id": 3,
+        "name": "Family Junior Suite with 1 Double Bed",
+        "description": null,
+        "price": 7080,
+        "services": ["Refrigerator"],
+        "quantity": 20,
+        "image_id": 11
+    },
+    {
+        "hotel_id": 3,
+        "name": "2-Room Comfort Suite",
+        "description": null,
+        "price": 9815,
+        "services": [],
+        "quantity": 10,
+        "image_id": 12
+    },
+    {
+        "hotel_id": 4,
+        "name": "Standard Double Room",
+        "description": null,
+        "price": 4300,
+        "services": ["Free Wi-Fi", "Refrigerator"],
+        "quantity": 20,
+        "image_id": 13
+    },
+    {
+        "hotel_id": 4,
+        "name": "Standard Superior PLUS",
+        "description": null,
+        "price": 4700,
+        "services": [
+            "Free Wi-Fi",
+            "Refrigerator",
+            "Bathroom",
+            "Air Conditioning"
+        ],
+        "quantity": 35,
+        "image_id": 14
+    },
+    {
+        "hotel_id": 5,
+        "name": "Standard Room with 2 Single Beds (with breakfast)",
+        "description": null,
+        "price": 5000,
+        "services": [],
+        "quantity": 15,
+        "image_id": 15
+    },
+    {
+        "hotel_id": 5,
+        "name": "Premium Junior Suite (with breakfast)",
+        "description": null,
+        "price": 8000,
+        "services": [],
+        "quantity": 7,
+        "image_id": 16
+    },
+    {
+        "hotel_id": 6,
+        "name": "Standard (typical building)",
+        "description": null,
+        "price": 8125,
+        "services": [],
+        "quantity": 45,
+        "image_id": 17
+    }
+]
